@@ -4,7 +4,7 @@ install:
 
 format:
 		# Format *.py
-		# black 
+		black config/*.py todos/*.py
 
 test:
 		# Testing *.py
